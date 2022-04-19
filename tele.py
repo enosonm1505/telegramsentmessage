@@ -3,7 +3,7 @@ import time
 
 base_url = "https://api.telegram.org/bot5124614020:AAEySd3wXhD4XK8m-vLk_1SSh2aRs_oOJ0A/sendDocument"
 
-my_file = open("vuln.txt", "rb")
+my_file = open("../a", "rb")
 
 parameters = {
     "chat_id" : "@alertssidsix",
