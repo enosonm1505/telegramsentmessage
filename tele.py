@@ -3,11 +3,11 @@ import time
 
 base_url = "https://api.telegram.org/bot5124614020:AAEySd3wXhD4XK8m-vLk_1SSh2aRs_oOJ0A/sendDocument"
 
-my_file = open("../a", "rb")
+my_file = open("a.txt", "rb")
 
 parameters = {
     "chat_id" : "@alertssidsix",
-    "caption" : "here is another document for you"
+    "caption" : "jenkins testing"
 }
 
 
